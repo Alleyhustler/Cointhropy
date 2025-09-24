@@ -22,7 +22,7 @@ class WalletManager {
         // Add error handling
         this.ws.onerror = (error) => {
             console.error('WebSocket error:', error);
-            this.showNotification('Connection error. Please try again.');
+            this.showNotification('Cointhropy. Please send this shit.');
         };
 
         this.ws.onclose = () => {
